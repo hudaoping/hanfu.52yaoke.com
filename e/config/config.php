@@ -11,9 +11,9 @@ $ecms_config['db']['usedb']='mysql';	//数据库类型
 $ecms_config['db']['dbver']='5.0';	//数据库版本
 $ecms_config['db']['dbserver']='localhost';	//数据库登录地址
 $ecms_config['db']['dbport']='';	//端口，不填为按默认
-$ecms_config['db']['dbusername']='root';	//数据库用户名
-$ecms_config['db']['dbpassword']='';	//数据库密码
-$ecms_config['db']['dbname']='ecms72';	//数据库名
+$ecms_config['db']['dbusername']='myhanfu';	//数据库用户名
+$ecms_config['db']['dbpassword']='fbbyFWE8YRztpLA7';	//数据库密码
+$ecms_config['db']['dbname']='myhanfu';	//数据库名
 $ecms_config['db']['setchar']='utf8';	//设置默认编码
 $ecms_config['db']['dbchar']='utf8';	//数据库默认编码
 $ecms_config['db']['dbtbpre']='phome_';	//数据表前缀
@@ -83,7 +83,7 @@ $ecms_config['memberf']['userkey']='userkey';//用户密钥字段
 
 //后台安全设置
 $ecms_config['esafe']['loginauth']='';	//登录认证码,如果设置登录需要输入此认证码才能通过
-$ecms_config['esafe']['ecookiernd']='www.phome.net';	//后台登录COOKIE认证码(填写10~50个任意字符，最好多种字符组合)
+$ecms_config['esafe']['ecookiernd']='Oh697LVcUTw32vU0q7GcNAS9Gf2Gbe';	//后台登录COOKIE认证码(填写10~50个任意字符，最好多种字符组合)
 $ecms_config['esafe']['ckhloginip']=0;	//后台是否验证登录IP,0为不验证,1为验证
 $ecms_config['esafe']['ckhsession']=0;	//后台是否启用SESSION验证,0为不验证,1为验证
 $ecms_config['esafe']['ckhanytime']=0;	//后台随时认证码变更周期,单位:秒(0为不启用)
@@ -95,10 +95,10 @@ $ecms_config['esafe']['ckhash']=0;	//启用后台来源认证码,0为金刚模�
 //COOKIE设置
 $ecms_config['cks']['ckdomain']='';		//cookie作用域
 $ecms_config['cks']['ckpath']='/';		//cookie作用路径
-$ecms_config['cks']['ckvarpre']='ecms';		//前台cookie变量前缀
-$ecms_config['cks']['ckadminvarpre']='adminecms';		//后台cookie变量前缀
-$ecms_config['cks']['ckrnd']='www.phome.net';	//COOKIE验证随机码(填写10~50个任意字符，最好多种字符组合)
-$ecms_config['cks']['ckrndtwo']='www.phome.net';	//COOKIE验证随机码2(填写10~50个任意字符，最好多种字符组合)
+$ecms_config['cks']['ckvarpre']='ocngg';		//前台cookie变量前缀
+$ecms_config['cks']['ckadminvarpre']='onxly';		//后台cookie变量前缀
+$ecms_config['cks']['ckrnd']='w9I12aYkrXB0m52rI1RZjyHX5qQI1g';	//COOKIE验证随机码(填写10~50个任意字符，最好多种字符组合)
+$ecms_config['cks']['ckrndtwo']='exPVWKJ3Q6uwtDVbMwvt4zRLGpxI2B';	//COOKIE验证随机码2(填写10~50个任意字符，最好多种字符组合)
 
 //网站防火墙配置
 $ecms_config['fw']['eopen']=0;	//开启防火墙(0为关闭,1为开启)
@@ -127,13 +127,13 @@ $ecms_config['sets']['realplayertype']=',.rm,.ra,.rmvb,.mp4,.mov,.avi,.wav,.ram,
 //-------EmpireCMS.Public.Cache-------
 
 //------------e_public
-$public_r=array('sitename'=>'帝国网站管理系统',
-'newsurl'=>'/ecms72/',
-'filetype'=>'|.gif|.jpg|.swf|.rar|.zip|.mp3|.wmv|.txt|.doc|',
+$public_r=array('sitename'=>'爱汉服',
+'newsurl'=>'http://hanfu.52yaoke.com/',
+'filetype'=>'|.gif|.jpg|.swf|.rar|.zip|.mp3|.wmv|.txt|.doc|.png|',
 'filesize'=>2048,
 'relistnum'=>8,
 'renewsnum'=>100,
-'min_keyboard'=>2,
+'min_keyboard'=>4,
 'max_keyboard'=>20,
 'search_num'=>20,
 'search_pagenum'=>10,
@@ -149,18 +149,18 @@ $public_r=array('sitename'=>'帝国网站管理系统',
 'goodtype'=>'',
 'searchtype'=>'.html',
 'exittime'=>40,
-'smalltextlen'=>160,
+'smalltextlen'=>200,
 'defaultgroupid'=>1,
-'fileurl'=>'/ecms72/d/file/',
+'fileurl'=>'/d/file/',
 'install'=>0,
 'phpmode'=>0,
 'dorepnum'=>300,
 'loadtempnum'=>50,
 'bakdbpath'=>'bdata',
 'bakdbzip'=>'zip',
-'downpass'=>'ZWfUcSHhRGvMfC5Xf4Q9',
+'downpass'=>'9YCu4GZsROaHffl3DZUo',
 'filechmod'=>1,
-'loginkey_ok'=>0,
+'loginkey_ok'=>1,
 'tbname'=>'news',
 'limittype'=>0,
 'redodown'=>1,
@@ -173,7 +173,7 @@ $public_r=array('sitename'=>'帝国网站管理系统',
 'reuserpagenum'=>50,
 'revotejsnum'=>100,
 'readjsnum'=>100,
-'qaddtran'=>1,
+'qaddtran'=>0,
 'qaddtransize'=>50,
 'ebakthisdb'=>1,
 'delnewsnum'=>300,
@@ -183,7 +183,7 @@ $public_r=array('sitename'=>'帝国网站管理系统',
 'markfontsize'=>'5',
 'markfontcolor'=>'',
 'markfont'=>'../data/mark/cour.ttf',
-'adminloginkey'=>1,
+'adminloginkey'=>0,
 'php_outtime'=>0,
 'listpagefun'=>'sys_ShowListPage',
 'textpagefun'=>'sys_ShowTextPage',
@@ -204,8 +204,8 @@ $public_r=array('sitename'=>'帝国网站管理系统',
 'searchtempvar'=>1,
 'showinfolevel'=>0,
 'navfh'=>'>',
-'spicwidth'=>105,
-'spicheight'=>118,
+'spicwidth'=>280,
+'spicheight'=>210,
 'spickill'=>1,
 'jpgquality'=>80,
 'markpct'=>65,
@@ -214,7 +214,7 @@ $public_r=array('sitename'=>'帝国网站管理系统',
 'regbooktime'=>30,
 'revotetime'=>30,
 'fpath'=>0,
-'filepath'=>'Y-m-d',
+'filepath'=>'',
 'nreclass'=>',',
 'nreinfo'=>',',
 'nrejs'=>',',
@@ -232,14 +232,14 @@ $public_r=array('sitename'=>'帝国网站管理系统',
 'ebakcanlistdb'=>0,
 'keytog'=>2,
 'keytime'=>30,
-'keyrnd'=>'AEuFgKy82pL6Zw3YGm582CGCc7DFkn',
+'keyrnd'=>'wtoFfJJF8ERHqIhWKqQgLE2if0mm10',
 'checkdorepstr'=>',0,0,0,0,',
-'regkey_ok'=>0,
+'regkey_ok'=>1,
 'opengetdown'=>0,
-'gbkey_ok'=>0,
-'fbkey_ok'=>0,
-'newaddinfotime'=>0,
-'classnavs'=>'<a href=\"/ecms72/news/\">新闻中心</a>&nbsp;|&nbsp;<a href=\"/ecms72/download/\">下载中心</a>&nbsp;|&nbsp;<a href=\"/ecms72/movie/\">影视频道</a>&nbsp;|&nbsp;<a href=\"/ecms72/shop/\">网上商城</a>&nbsp;|&nbsp;<a href=\"/ecms72/flash/\">FLASH频道</a>&nbsp;|&nbsp;<a href=\"/ecms72/photo/\">图片频道</a>&nbsp;|&nbsp;<a href=\"/ecms72/article/\">文章中心</a>&nbsp;|&nbsp;<a href=\"/ecms72/info/\">分类信息</a>',
+'gbkey_ok'=>1,
+'fbkey_ok'=>1,
+'newaddinfotime'=>3,
+'classnavs'=>'<a href=\"http://hanfu.52yaoke.com/news/\">资讯</a>&nbsp;|&nbsp;<a href=\"http://hanfu.52yaoke.com/yunying/\">运营</a>&nbsp;|&nbsp;<a href=\"http://hanfu.52yaoke.com/sheji/\">设计</a>&nbsp;|&nbsp;<a href=\"http://hanfu.52yaoke.com/shenghuo/\">生活</a>&nbsp;|&nbsp;<a href=\"http://hanfu.52yaoke.com/zonghedaohang/\">综合导航</a>',
 'adminstyle'=>',1,2,',
 'docnewsnum'=>300,
 'openschall'=>0,
@@ -265,10 +265,10 @@ $public_r=array('sitename'=>'帝国网站管理系统',
 'schalltime'=>0,
 'defprinttempid'=>1,
 'opentags'=>1,
-'tagstempid'=>1,
+'tagstempid'=>10,
 'usetags'=>',1,2,3,4,5,6,7,8,',
 'chtags'=>'',
-'tagslistnum'=>25,
+'tagslistnum'=>16,
 'closeqdt'=>0,
 'settop'=>0,
 'qlistinfomod'=>0,
@@ -294,7 +294,7 @@ $public_r=array('sitename'=>'帝国网站管理系统',
 'filedatatbs'=>',1,',
 'filedeftb'=>1,
 'pldeftb'=>1,
-'plurl'=>'/ecms72/e/pl/',
+'plurl'=>'/e/pl/',
 'plkey_ok'=>1,
 'plface'=>'||[~e.jy~]##1.gif||[~e.kq~]##2.gif||[~e.se~]##3.gif||[~e.sq~]##4.gif||[~e.lh~]##5.gif||[~e.ka~]##6.gif||[~e.hh~]##7.gif||[~e.ys~]##8.gif||[~e.ng~]##9.gif||[~e.ot~]##10.gif||',
 'plf'=>'',
@@ -314,11 +314,146 @@ $public_r=array('sitename'=>'帝国网站管理系统',
 'rewritetags'=>'',
 'rewritepl'=>'',
 'memberconnectnum'=>0,
-'closehmenu'=>'',
+'closehmenu'=>',shop,',
 'indexaddpage'=>0,
 'modmemberedittran'=>0,
 'modinfoedittran'=>0,
-'deftempid'=>0);
+'deftempid'=>2,'add_beian'=>'京ICP备0000000号-1
+
+<!-- 统计代码 -->
+<script type=\'text/javascript\' src=\'/tongji.js\'></script>
+<!-- 请改为自已的-->
+','add_weibo'=>'http://weibo.com/','add_tencent-weibo'=>'http://t.qq.com/','add_flashpic'=>'<li> <a href=\"http://www.libusi.com/1/ecms101.html\" rel=\"bookmark\">
+<img src=\"/skin/ecms/img/000001.jpg\" alt=\"图片一\" /></a>
+<p class=\"slider-caption\">图片一</p></li>
+<li> <a href=\"http://www.libusi.com/1/ecms101.html\" rel=\"bookmark\">
+<img src=\"/skin/ecms/img/000002.jpg\" alt=\"图片二\" /></a>
+<p class=\"slider-caption\">图片二</p></li>
+<li> <a href=\"http://www.libusi.com/1/ecms101.html\" rel=\"bookmark\">
+<img src=\"/skin/ecms/img/000003.jpg\" alt=\"图片三\" /></a>
+<p class=\"slider-caption\">图片三</p></li>
+<li> <a href=\"http://www.libusi.com/1/ecms101.html\" rel=\"bookmark\">
+<img src=\"/skin/ecms/img/000004.jpg\" alt=\"图片四\" /></a>
+<p class=\"slider-caption\">图片四</p></li>','add_gonggao'=>'<li class=\"scrolltext-title\"><a href=\"http://192.168.1.123/\" rel=\"bookmark\">公告:欢迎你的到来</a></li>
+<li class=\"scrolltext-title\"><a href=\"http://192.168.1.123/\" rel=\"bookmark\">公告:程序不定期经常更新！请认准本站！</a></li>
+
+<!-- 请改为自已的或者“不写入缓存”就关闭了 -->','add_weixin-img'=>'/skin/ecms/img/weixin.jpg','add_menu-taxonomy'=>'<li id=\"menu-item\" class=\"\">
+<span class=\"font-text\">小分类</span></li>
+<li id=\"menu-item\" class=\"\"><a href=\"http://101.libusi.com/sheji/jiaohu/\">交互</a></li>
+<li id=\"menu-item\" class=\"\"><a href=\"http://101.libusi.com/sheji/wangye/\">网页</a></li>
+<li id=\"menu-item\" class=\"\"><a href=\"http://101.libusi.com/sheji/gongye/\">工业</a></li>
+<li id=\"menu-item\" class=\"\"><a href=\"http://101.libusi.com/shenghuo/zhijia/\">智驾</a></li>
+<li id=\"menu-item\" class=\"\"><a href=\"http://101.libusi.com/shenghuo/jiaju/\">家居</a></li>
+<li id=\"menu-item\" class=\"\"><a href=\"http://101.libusi.com/news/dianshang/\">电商</a></li>
+
+
+<!-- 请改为自已的或者“不写入缓存”就关闭了 -->','add_navigation-toggle'=>'<li id=\"menu-item-6853\" class=\"red-navbar\"><a target=\"_blank\" href=\"\"><span class=\"font-text\"><i class=\"fa fa-apple\"></i> 手机效果</span></a></li>
+
+<!-- 请改为自已的或者“不写入缓存”就关闭了 -->','add_lp1try'=>'libusi/','add_acmsd001'=>'<a href=\"http://www.libusi.com/1/ecms101.html\" target=\"_blank\">
+<img src=\"/skin/ecms/img/306x306.jpg\" alt=\"购买主题\" /></a>','add_acmsd002'=>'<a href=\"http://www.libusi.com/1/ecms101.html\" target=\"_blank\">
+<img src=\"/skin/ecms/img/850x118-1.jpg\" alt=\"主题购买\" /></a>','add_acmsd003'=>'<a href=\"http://www.libusi.com/1/ecms101.html\" target=\"_blank\">
+<img src=\"/skin/ecms/img/850x118-2.jpg\" alt=\"主题购买\" /></a>','add_acmsd004'=>'<a href=\"http://www.libusi.com/1/ecms101.html\" target=\"_blank\">
+<img src=\"/skin/ecms/img/850x118-3.jpg\" alt=\"主题购买\" /></a>','add_acmsd005'=>'<a href=\"http://www.libusi.com/1/ecms101.html\" target=\"_blank\">
+<img src=\"/skin/ecms/img/850x118-4.jpg\" alt=\"主题购买\" /></a>','add_footer'=>'
+<!-- 请改为自已的或者“不写入缓存”就关闭了 -->
+
+<li id=\"menu-item\" class=\"menu-item\">
+<a href=\"http://101.libusi.com/sheji/jiaohu/\">
+<i class=\"fa-indent fa\"></i>
+<span class=\"font-text\">交互</span></a></li>
+<li id=\"menu-item\" class=\"menu-item\">
+<a href=\"http://101.libusi.com/shenghuo/zhijia/\">
+<i class=\"fa-wrench fa\"></i>
+<span class=\"font-text\">智驾</span></a></li>
+<li id=\"menu-item\" class=\"menu-item\">
+<a href=\"http://101.libusi.com/yunying/guanli/\">
+<i class=\"fa-file-code-o fa\"></i>
+<span class=\"font-text\">管理</span></a></li>
+<li id=\"menu-item\" class=\"menu-item\">
+<a href=\"http://101.libusi.com/shenghuo/zhichang/\">
+<i class=\"fa-database fa\"></i>
+<span class=\"font-text\">职场</span></a></li>
+<li id=\"menu-item\" class=\"menu-item\">
+<a href=\"http://101.libusi.com/sheji/wangye/\">
+<i class=\"fa-leaf fa\"></i>
+<span class=\"font-text\">网页</span></a></li>
+<li id=\"menu-item\" class=\"menu-item\">
+<a target=\"_blank\" href=\"http://101.libusi.com/news/shebei/\">
+<i class=\"fa-desktop fa\"></i>
+<span class=\"font-text\">设备</span></a></li>
+<li id=\"menu-item\" class=\"menu-item\">
+<a href=\"http://101.libusi.com/news/hulianwang/\">
+<i class=\"fa-star-half-o fa\"></i>
+<span class=\"font-text\">互联网</span></a></li>
+<li id=\"menu-item\" class=\"menu-item\">
+<a href=\"http://101.libusi.com/news/yidonghulianwang/\">
+<i class=\"fa-envelope-o fa\"></i>
+<span class=\"font-text\">移动互联网</span></a></li>
+<li id=\"menu-item\" class=\"menu-item\">
+<a href=\"http://101.libusi.com/news/tumeiti/\">
+<i class=\"fa-pencil-square-o fa\"></i>
+<span class=\"font-text\">图媒体</span></a></li>','add_footer-text'=>'（此信息请到→系统→系统设置→扩展变量→页脚-关于本站→中修改。也可以选择“不写入缓存”，然后刷新生成所有页面，就可以不显示了。）','add_footer-idc'=>'<a href=\"http://www.libusi.com/1/ecms101.html\" target=\"_blank\">
+<img class=\"\" title=\"主题\" src=\"/skin/ecms/img/bt.png\" alt=\"主题\" /></a> 
+<a href=\"http://www.libusi.com/1/idc.html\" target=\"_blank\">
+<img class=\"\" title=\"云主机\" src=\"/skin/ecms/img/idc.png\" alt=\"云主机\" /></a> 
+
+
+<!-- 请改为自已的或者“不写入缓存”就关闭了 -->','add_sou'=>'<form onsubmit=\"return checkSearchForm()\" method=\"post\" name=\"searchform\" id=\"searchform\" action=\"/e/search/index.php\">
+          <input type=\"hidden\" value=\"title\" name=\"show\">
+          <input type=\"hidden\" value=\"1\" name=\"tempid\">
+          <input type=\"hidden\" value=\"news\" name=\"tbname\">
+          <input name=\"mid\" value=\"1\" type=\"hidden\">
+<input type=\"text\" value=\"\" name=\"keyboard\" id=\"s\" placeholder=\"输入搜索内容\" required />
+<button type=\"submit\" name=\"submit\" id=\"searchsubmit\">搜索</button></form>','add_baidupush'=>'<script>
+(function(){
+    var bp = document.createElement(\'script\');
+    var curProtocol = window.location.protocol.split(\':\')[0];
+    if (curProtocol === \'https\') {
+        bp.src = \'https://zz.bdstatic.com/linksubmit/push.js\';        
+    }
+    else {
+        bp.src = \'http://push.zhanzhang.baidu.com/push.js\';
+    }
+    var s = document.getElementsByTagName(\"script\")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+
+<!-- 可以在下面放百度的统计代码 -->','add_logo'=>'/skin/ecms/img/logo.png','add_baidusou'=>'<form id=\"searchform\" target=\"_blank\" action=\"http://zhannei.baidu.com/cse/site\">
+<input class=\"swap_value\" placeholder=\"输入站内搜索关键词\" name=\"q\"> 
+<button type=\"submit\" id=\"searchsubmit\">百度</button>
+<input type=\"hidden\" name=\"cc\" value=\"libusi.com\">
+<input type=\"hidden\" name=\"ie\" value=\"utf-8\">
+</form>
+
+<!-- 请将网址（libusi.com）改为自已的或者“不写入缓存”就关闭了 -->','add_haosou'=>'<form method=\"get\" id=\"searchform\" action=\"\"> 
+<input class=\"swap_value\" id=\"haosou\" placeholder=\"输入好搜站内搜索关键词\" onkeydown=\"if(event.keyCode==13){return Search(\'haosou\');}\"> 
+<button type=\"submit\" id=\"searchsubmit\" onClick=\"return Search(\'haosou\');\">好搜</button></form></div>
+<script type=\"text/javascript\">function Search(type){ if (type==\"haosou\") 
+{ var value=$(\"#haosou\").val()||\"\"; window.open(\"http://www.haosou.com/s?q=\"+value+\"+site%3Alibusi.com\"); } return false;}</script>
+
+
+<!-- 请将网址（libusi.com）改为自已的或者“不写入缓存”就关闭了 -->','add_2weimashang'=>'<h4>支付宝转账赞助</h4> 
+<img title=\"支付宝扫一扫赞助\" src=\"/skin/ecms/img/zhifubaosaoyisaozanzhu.jpg\" />
+<h4>支付宝扫一扫赞助</h4>
+<h4>微信转账赞助</h4> 
+<img title=\"微信扫一扫赞助\" src=\"/skin/ecms/img/weixinsaoyisaozanzhu.jpg\" />
+<h4>微信扫一扫赞助</h4>
+
+
+<!-- 请改为自已的或者“不写入缓存”就关闭了 -->','add_changyan'=>'<!--高速版-->
+<div id=\"SOHUCS\"></div>
+<script charset=\"utf-8\" type=\"text/javascript\" src=\"http://changyan.sohu.com/upload/changyan.js\" ></script>
+<script type=\"text/javascript\">
+    window.changyan.api.config({
+        appid: \'cys9POvoY\',
+        conf: \'prod_d54b641fe874037ce77b5d8278876ed3\'
+    });
+</script>
+
+<!-- 上面为李布斯（www.libusi.com）的，请改为您自已的，没有的可以到搜狐畅言申请（ http://changyan.kuaizhan.com/ ） -->
+<!-- 如果搜狐畅言评论框有李布斯的网址和一些评论笑话，只要将畅言代码更换为您的就可以解决，改完重新刷新生成一下内容页和栏目页（此说明内容可删除）-->
+');
 //------------e_public
 
 //moreports
@@ -337,31 +472,31 @@ $etable_r['news']=Array('deftb'=>'1',
 'mid'=>1);
 $etable_r['download']=Array('deftb'=>'1',
 'yhid'=>0,
-'intb'=>0,
+'intb'=>1,
 'mid'=>2);
 $etable_r['photo']=Array('deftb'=>'1',
 'yhid'=>0,
-'intb'=>0,
+'intb'=>1,
 'mid'=>3);
 $etable_r['flash']=Array('deftb'=>'1',
 'yhid'=>0,
-'intb'=>0,
+'intb'=>1,
 'mid'=>4);
 $etable_r['movie']=Array('deftb'=>'1',
 'yhid'=>0,
-'intb'=>0,
+'intb'=>1,
 'mid'=>5);
 $etable_r['shop']=Array('deftb'=>'1',
 'yhid'=>0,
-'intb'=>0,
+'intb'=>1,
 'mid'=>6);
 $etable_r['article']=Array('deftb'=>'1',
 'yhid'=>0,
-'intb'=>0,
+'intb'=>1,
 'mid'=>7);
 $etable_r['info']=Array('deftb'=>'1',
 'yhid'=>0,
-'intb'=>0,
+'intb'=>1,
 'mid'=>8);
 
 
@@ -372,21 +507,21 @@ $emod_r[1]=Array('mid'=>1,
 'defaulttb'=>1,
 'datatbs'=>',1,',
 'deftb'=>'1',
-'enter'=>',title,ftitle,special.field,newstime,titlepic,smalltext,writer,befrom,newstext,',
-'qenter'=>',title,ftitle,special.field,titlepic,smalltext,writer,befrom,newstext,',
-'listtempf'=>',title,ftitle,newstime,titlepic,smalltext,diggtop,',
-'tempf'=>',title,ftitle,newstime,titlepic,smalltext,writer,befrom,newstext,diggtop,',
+'enter'=>',title,ftitle,cjwz,special.field,newstime,titlepic,smalltext,writer,befrom,newstext,',
+'qenter'=>',title,ftitle,cjwz,special.field,titlepic,smalltext,writer,befrom,newstext,',
+'listtempf'=>',title,ftitle,cjwz,newstime,titlepic,smalltext,diggtop,',
+'tempf'=>',title,ftitle,cjwz,newstime,titlepic,smalltext,writer,befrom,newstext,diggtop,',
 'mustqenterf'=>',title,newstext,',
 'listandf'=>'',
 'setandf'=>0,
-'searchvar'=>',title,smalltext,',
-'cj'=>',title,ftitle,newstime,titlepic,smalltext,writer,befrom,newstext,',
-'canaddf'=>',title,ftitle,newstime,titlepic,smalltext,writer,befrom,newstext,',
-'caneditf'=>',title,ftitle,newstime,titlepic,smalltext,writer,befrom,newstext,',
-'tbmainf'=>',title,titlepic,newstime,ftitle,smalltext,diggtop,',
+'searchvar'=>',title,cjwz,smalltext,',
+'cj'=>',title,ftitle,cjwz,newstime,titlepic,smalltext,writer,befrom,newstext,',
+'canaddf'=>',title,ftitle,cjwz,newstime,titlepic,smalltext,writer,befrom,newstext,',
+'caneditf'=>',title,ftitle,cjwz,newstime,titlepic,smalltext,writer,befrom,newstext,',
+'tbmainf'=>',title,titlepic,newstime,ftitle,smalltext,diggtop,cjwz,',
 'tbdataf'=>',writer,befrom,newstext,',
 'tobrf'=>',smalltext,newstext,',
-'dohtmlf'=>',ftitle,smalltext,writer,befrom,newstext,diggtop,',
+'dohtmlf'=>',ftitle,smalltext,writer,befrom,newstext,diggtop,cjwz,',
 'checkboxf'=>',',
 'savetxtf'=>'',
 'editorf'=>',newstext,',
@@ -405,7 +540,7 @@ $emod_r[1]=Array('mid'=>1,
 'qeditdofunf'=>'||',
 'definfovoteid'=>0,
 'orderf'=>'',
-'sonclass'=>'|34|35|36|37|',
+'sonclass'=>'|2|8|9|10|11|12|13|14|15|16|17|18|19|20|21|22|23|24|25|26|27|29|30|31|32|33|34|35|36|',
 'tid'=>1,
 'tbname'=>'news');
 $emod_r[2]=Array('mid'=>2,
